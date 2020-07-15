@@ -1,23 +1,32 @@
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
+		System.out.print("lets go to the mall");
+		System.out.print("here we go again");
 		
-		String apples = "yummy";
-		
-		String there = "time";
-		
-		Scanner scan = new Scanner(there);
-		
-		scan.close();
+		System.out.println("now we're talking man");
+		System.out.print("we are going fast now");
 		
 		
+		// learning scanner for input from the user:
 		
-		// making a change with this comment.
+		
+		// Here we define the scanner input object to be scan.
+		Scanner scan = new Scanner(System.in);
+		
+		// Now we make the input string:
+		String man = scan.nextLine();
+		
+		
+		System.out.println("Man: " + );
+		
 		
 		
 	}
+
 
 }
